@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS Fundamentals</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>HTML & CSS Fundamentals</h1>
+        <p>Learning HTML5 structure and CSS3 styling</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">External Link</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This page demonstrates semantic HTML5 elements and CSS3 styling. Special characters like &lt;, &gt;, &amp;, © are included.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Toronto_sign_2011.jpg/320px-Toronto_sign_2011.jpg" alt="Toronto Sign">
+        </section>
+
+        <!-- Topics Section -->
+        <section id="topics">
+            <h2>Topics Covered</h2>
+            <ol>
+                <li>HTML Basics
+                    <ul>
+                        <li>Elements</li>
+                        <li>Attributes</li>
+                        <li>Entities</li>
+                    </ul>
+                </li>
+                <li>CSS Selectors</li>
+                <li>Box Model</li>
+            </ol>
+            <div class="highlight-box">
+                Inline vs Block
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section id="schedule">
+            <h2>Weekly Course Schedule</h2>
+            <table>
+                <caption>WEB Course Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Topic</th>
+                        <th>Lab</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>HTML Basics</td>
+                        <td>Lab 1</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CSS Selectors</td>
+                        <td>Lab 2</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total Hours</td>
+                        <td>7</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Multimedia Section -->
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+            <div>
+                <h3>Audio Example</h3>
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div>
+                <h3>Video Example</h3>
+                <video controls width="320">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 HTML & CSS Demo
+    </footer>
+</body>
+</html>
